@@ -77,13 +77,14 @@ header {
 
   .content {
     flex-direction: column;
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .con {
     margin: 0 auto !important;
     width: 100% !important;
     flex-direction: row;
+    overflow: hidden;
 
   }
 
