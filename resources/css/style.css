@@ -1,118 +1,3 @@
-@media only screen and (max-width: 1024px) {
-  .picture {
-    max-height: 22rem; /*why doesn't work?*/
-    padding: 0 !important;
-  }
-
-header {
-  max-width: 100%;
-}
-.container {
-  max-width: 100%;
-}
-  .container .banner {
-    padding: 0.75rem 4rem;
-    margin-top: 5rem;
-    margin-right: 2rem;
-    font-size: 1.33rem;
-  }
-
-}
-/*720px*/
-@media only screen and (max-width: 720px) {
-
-
-  .picture{
-    background-position: 20%;
-    max-height: 17rem;
-
-  }
-
-.container {
-  max-width: 100%;
-}
-
-  .container .banner {
-    padding: 1rem 0 1rem 0;
-    margin-top: 9rem;
-    width: 100%;
-    margin: 9rem 0 0 0;
-    text-align: center;
-    font-size: 1rem;
-  }
-
-  .logo h4 {
-    display: none;
-  }
-
-  nav span{
-    display: none;
-  }
-
-  header .menu {
-    display: block;
-    font-weight: bold;
-    margin-right: 1rem;
-  }
-
-  .icons {
-    flex-direction: column;
-    margin-top: 10rem;
-  }
-
-  .icon {
-    margin-top: 1.54rem;
-    max-height: 8rem;
-    justify-content: center;
-  }
-
-  .icon img {
-    margin-bottom: 0px;
-  }
-
-  .icon span {
-    margin-top: 0px;
-    font-size: 0.77rem;
-  }
-
-  .content {
-    flex-direction: column;
-    max-width: 100% !important;
-  }
-
-  .con {
-    margin: 0 auto !important;
-    width: 100% !important;
-    flex-direction: row;
-    overflow: hidden;
-
-  }
-
-  .con h2  {
-    width: 100% !important;
-     text-align: center;
-  }
-
-  .con p{
-    padding: 0 1rem;
-    font-size: 0.77rem;
-  }
-
-  .content .appointments {
-    margin-top: 4rem !important;
-  }
-
-  footer h4 {
-    display: none;
-  }
-
-
-  footer .container {
-    justify-content: center !important;
-  }
-
-}
-/*media end*/
 
 body {
   font-size: 18px;
@@ -245,3 +130,119 @@ footer img {
 footer .container {
   justify-content: flex-start;
 }
+
+@media only screen and (max-width: 1024px) {
+  .picture {
+    max-height: 22rem;
+    padding: 0;
+  }
+
+header {
+  max-width: 100%;
+}
+.container {
+  max-width: 100%;
+}
+  .container .banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
+
+}
+/*720px*/
+@media only screen and (max-width: 720px) {
+
+
+  .picture{
+    background-position: 20%;
+    max-height: 17rem;
+
+  }
+
+.container {
+  max-width: 100%;
+}
+
+  .container .banner {
+    padding: 1rem 0 1rem 0;
+    margin-top: 9rem;
+    width: 100%;
+    margin: 9rem 0 0 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .logo h4 {
+    display: none;
+  }
+
+  nav span{
+    display: none;
+  }
+
+  header .menu {
+    display: block;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  .icons {
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .icon {
+    margin-top: 1.54rem;
+    max-height: 8rem;
+    justify-content: center;
+  }
+
+  .icon img {
+    margin-bottom: 0px;
+  }
+
+  .icon span {
+    margin-top: 0px;
+    font-size: 0.77rem;
+  }
+
+  .content {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .con {
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+
+  }
+
+  .con h2  {
+    width: 100%;
+     text-align: center;
+  }
+
+  .con p{
+    padding: 0 1rem;
+    font-size: 0.77rem;
+  }
+
+  .content .appointments {
+    margin-top: 4rem;
+  }
+
+  footer h4 {
+    display: none;
+  }
+
+
+  footer .container {
+    justify-content: center;
+  }
+
+}
+/*media end*/
