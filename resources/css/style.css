@@ -1,3 +1,109 @@
+@media only screen and (max-width: 1024px) {
+  .picture {
+    max-height: 22rem; /*why doesn't work?*/
+    border: solid yellow;
+  }
+
+header {
+  max-width: 100%;
+}
+.container {
+  max-width: 100%;
+}
+  .container .banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+    border: solid black;
+  }
+
+}
+/*720px*/
+@media only screen and (max-width: 720px) {
+
+  .picture{
+    background-position: 20%;
+    max-height: 17rem;
+  }
+
+.container {
+  max-width: 100%;
+  border: solid green;
+}
+  .container .banner {
+    padding: 1rem 0 1rem 0;
+    margin-top: 9rem;
+    width: 100%;
+    margin: 9rem 0 0 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .logo h4 {
+    display: none;
+  }
+
+  nav span{
+    display: none;
+  }
+
+  header .menu {
+    display: block;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  .icons {
+    border: solid pink;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .icon {
+    border: solid orange;
+    margin-top: 1.54rem;
+    max-height: 8rem;
+    justify-content: center;
+  }
+
+  .icon img {
+    border: dotted red;
+    margin-bottom: 0px;
+  }
+
+  .icon span {
+    margin-top: 0px;
+    font-size: 0.77rem;
+    border: dotted blue;
+  }
+
+.content {
+  flex-direction: column;
+  border: solid red;
+  max-width: 100%;
+}
+
+.con {
+  border: solid violet;
+  margin: 0 auto;
+  min-width: 100%;
+  flex-direction: row;
+  
+}
+
+.con h2  {
+ min-width: 100%;
+ border: solid purple;
+}
+
+  .con p{
+    padding: 1rem;
+  }
+
+
+}
+
 body {
   font-size: 18px;
   line-height: 1.4;
@@ -9,6 +115,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 30rem;
+  padding-top: 1rem;
 }
 
 header {
